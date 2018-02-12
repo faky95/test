@@ -1,0 +1,7 @@
+oc_platform_homepage:
+    path:     /
+    defaults: { _controller: OCPlatformBundle:Default:index }
+
+add:
+    path:     /user
+    defaults: { _controller: OCPlatformBundle:Advert:add }
